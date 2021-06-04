@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/backo.jpg");
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+/*PRIMER MINI-BARRA*/
+
+/* .header {
+    display: flex;
+    background-color: rgb(147, 180, 180);
+    height: 40px;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.header .container {
+    font-family: 'Recursive', sans-serif;
+    font-size: 15px;
+}
+
+.header .primer--barra{
+    display: flex;
+    gap: 20px;
+    margin-top: 0px;
+} */
+
+/*botones de las redes sociales de la barra*/
+/* .botonred {
+    color:rgb(30, 82, 226);
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 30px;
+    transition: .3s ease all;
+}
+
+.botonred2 {
+    color:rgb(206, 73, 33);
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 30px;
+    transition: .3s ease all;
+} */
+
+/*Barra de navegación */
+/* .nav{
+    display: flex;
+    background-color: #0e0d0d;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%; */
+    /* flex-wrap: wrap; */
+/* }
+
+    
+.nav .container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 300px; */
+    /* flex-wrap: wrap; */
+
+/* }
+
+.item {
+    font-size: 18px;
+    margin-top: 10px;  
+    padding: 0px 40px;
+
+}
+
+.item a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+.item a:hover{
+    opacity: .75;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(247, 181, 227);
+}  */
+
+
+/* MAINNNN */
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+  
+/* VAMOS CON LOS TITULOS Y SUB-TIT PRINCIPALES */
+
+.texto--principal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+
+}
+ 
+
+/*titulos y subtitulos */
+
+.main .texto--principal h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(114, 107, 107, 0.3);
+}
+
+.main .texto--principal h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+/*texto abajo del titulo*/
+.main .texto--principal p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+
+/*Imagen principal*/
+
+.texto--principal .img--pr {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* MAIN 2 PARTE DOSSS  */
+.main aside {
+    justify-content: center;
+    width: 100%;    
+    background-color: rgba(114, 107, 107, 0.3);
+
+}
+
+
+/* LAS COLUMNAS CON INFORMACION  */
+
+/*aca van a estar las dos columnas del div*/
+.flex-container {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.flex-container div{
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Antonio', sans-serif;;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+
+/* ESTILOS Y FUENTES DE LAS COLUMNAS  */
+.flex-container h2 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex-container li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+
+.lista{
+    list-style-position:inside;
+}
+
+
+
+
+/* TERCER PARTE DEL MAINNN */
+.main article{
+    width: 100%;
+}
+
+
+
+/* Las redes sociales brindadas al final*/
+
+.botones-red {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.botones-red h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+/* IG Y FB POSTS  */
+.article .botones-red .fb--ig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+}
+
+
+
+
+/* UBICACION + MAPA  */
+.direccion--mapa {
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    background-color: rgba(114, 107, 107, 0.3);
+    margin-bottom: 20px;
+
+}
+.direccion--mapa h2{
+    padding: 10px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #0f131a;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+}
