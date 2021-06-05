@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="https://w7.pngwing.com/pngs/329/979/png-transparent-wikipedia-medicine-medical-encyclopedia-kiwix-appbrain-extension-text-logo-medicine-thumbnail.png" />
+    <!-- FONT AWESOME (ICONS) -->
+    <script src="https://kit.fontawesome.com/85638742e6.js" crossorigin="anonymous"></script></script></script>
     <!-- ESTILOS  -->
     <link rel="stylesheet" href="./estilos/sobrecosmin.css" />
     <script src="https://kit.fontawesome.com/85638742e6.js" crossorigin="anonymous"></script></script></script>
@@ -19,25 +21,15 @@
     <div class="alert alert-info" role="alert">
         Consultorios en <a href="https://goo.gl/maps/JkhKCjLYKNdNHqR18" target="_blank" class="alert-link">Rivadavia 1390, Gral Rodriguez - Buenos Aires</a>
     </div>
-    <!-- <header class="header align-items-center">
-        <div class="container">Rivadavia 1390, Gral Rodriguez - Buenos Aires.</div>
-        <div class="primer--barra">
-            <div class="botonred"><a href="https://www.facebook.com/cosminterapias" target="_blank" class="botonred"><i class="fab fa-facebook"></i></a></div>
-            <div class="botonred2"><a href="https://www.instagram.com/consultorios.cosmin/?hl=es" target="_blank" class="botonred2"><i class="fab fa-instagram"></i></a></div>    
-        </div>
-    </header>
-    <br> -->
-    
     
     <!-- BARRA DE NAVEGACION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Menú</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
               </li>
@@ -50,25 +42,16 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
               </li>
-
             </ul>
           </div>
         </div>
       </nav>
     
   
-    <!-- <nav class="nav align-items-center">
-        <div class="container2">
-            <div class="item"><a href="index.html"> INICIO </a></div>
-            <div class="item"> <a href="staff.html"> STAFF </a></div>
-            <div class="item"><a href="contacto.html"> CONTACTO </a></div>
-        </div>
-    </nav> -->
-
 
     <main class="main">
     <hr>
-        <div class="caja--principal">
+        <div class="caja--principal container-sm">
             <h1>Sobre COSMIN</h1>
             <p>COSMIN es un Centro Integral de Psiquiatría, Fonoudiología, Terapia Ocupacional, 
             Psicología y Neurología integrado por un grupo de profesionales de excelente formación y reconocida trayectoria.</p>
@@ -80,17 +63,29 @@
             <p>Implementamos diversos abordajes y metodologías, con la intención de brindar un servicio a la medida de cada necesidad.</p>
             <br>
             <p>Poseemos una estructura edilicia diseñada especialmente para tal fin, en un ambiente cálido y confortable. <em>COSMIN</em> cuenta además, en la Zona Oeste del Gran Buenos Aires, con una red periférica de profesionales que atienden en sus consultorios.</p>           
-            <img class="img-pri" src="./img/cosinf.jpg" alt="COSMIN, Medicina Integral">
+            <img class="img-pri" src="./img/cosinf.jpg" alt="COSMIN, Medicina Integral" width="400" height="400">
         </div>
 
-        <div class="contacto--direccion">
+        <div class="contacto--direccion container-sm">
             <h3>Haga click <a href="contacto.html"><em>aquí</em></a> para contactarnos.</h3>
             <h3>Encontranos en:</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6309912937977!2d-58.94766998555192!3d-34.61349148045702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc8fb5dbd90b85%3A0x9ef59cc6ec1aa0ad!2sRivadavia%201390%2C%20B1749%20AJB%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1620428276507!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>        
         </div>
     </main>
 
-
+    <!-- NUEVOS BOTONES FLOTANTES DE LAS REDES SOCIALES  -->
+    <section>
+      <div class="contenedor--botones">
+          <input type="checkbox" id="btn-mas">
+          <div class="redes">
+              <a href="https://www.facebook.com/cosminterapias" class="icon-fb" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/consultorios.cosmin/?hl=es" class="icon-ig" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="btn-mas">
+              <label for="btn-mas" class="icon-mas2"><i class="fas fa-plus"></i></label>
+          </div>
+      </div>
+  </section>
 
     
     <!-- PIE DE PAGINA -->
