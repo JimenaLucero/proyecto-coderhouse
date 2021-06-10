@@ -76,51 +76,10 @@ body{
 }
 
 
-/* LAS COLUMNAS CON INFORMACION  */
-
-/*aca van a estar las dos columnas del div*/
-.flex-container {
-    display: flex;
-    padding: 10px;
-    margin-bottom: 10px;
-
-}
-
-
-.flex-container div{
-    margin: 10px;
-    text-align: center;
-    line-height: 45px;
-    font-family: 'Antonio', sans-serif;;
-    font-size: 15px;
-    border: 2px solid black;
-}
-
-
-/* ESTILOS Y FUENTES DE LAS COLUMNAS  */
-.flex-container h2 {
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.flex-container li {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 17px;
-}
-
-
-.lista{
-    list-style-position:inside;
-}
-
-
-
-
 /* TERCER PARTE DEL MAINNN */
-.main article{
+.main article {
     width: 100%;
 }
-
 
 
 /* IG Y FB POSTS  */
@@ -186,28 +145,6 @@ body{
 
 
 
-
-
-
-/* UBICACION + MAPA  */
-.direccion--mapa {
-    display: flex;
-    height: 400px;
-    justify-content: space-around;
-    background-color: rgba(114, 107, 107, 0.3);
-    margin-bottom: 20px;
-
-}
-.direccion--mapa h2{
-    padding: 10px;
-    margin-top: 0px;
-}
-
-
-
-
-
-
 /* Footer */
 footer {
     background-color: #0f131a;
@@ -217,4 +154,5 @@ footer {
     right: 0;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
