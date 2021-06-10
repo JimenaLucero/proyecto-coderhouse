@@ -81,13 +81,17 @@ body{
     width: 100%;
 }
 
-
-/* IG Y FB POSTS  */
-.article .resp-onsive {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* CARDS */
+.card_container{
+    height: 700px;
+    width: 100%;
+    
+background-color: rgba(red, green, blue, alpha);}
+.card-img-top {
+    width: 40% !important;
+    padding: 16px;
 }
+
 
 
 /* NUEVOS BOTONES FLOTANTES DE LAS REDES SOCIALES */
