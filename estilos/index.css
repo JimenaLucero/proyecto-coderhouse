@@ -9,31 +9,37 @@ body{
     min-height: 100vh;
 }
 
+/* CONTENEDORES  */
+.contenedor--uno, .contenedor--dos, .contenedor--tres, .contenedor--cuatro {
+    width: 50vw;
+    height: 50vw;
+} 
+
 
 /* MAINNNN */
-.main{
+/* .main{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
-}
+} */
 
   
 /* VAMOS CON LOS TITULOS Y SUB-TIT PRINCIPALES */
 
-.texto--principal {
+/* .texto--principal {
     display: flex;
     width: 100%;
     flex-direction: column;
     /* flex-wrap: wrap; */
 
 }
- 
+  */
 
 /*titulos y subtitulos */
 
-.main .texto--principal h1 {
+/* .main .texto--principal h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin-top: 30px;
@@ -45,17 +51,17 @@ body{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
 }
-
+ */
 
 
 /*texto abajo del titulo*/
-.main .texto--principal p{
+/* .main .texto--principal p{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
 
 
-/*Imagen principal*/
+/*Imagen principal
 
 .texto--principal .img--pr {
     display: flex;
@@ -63,30 +69,30 @@ body{
     margin-top: 50px;
     margin-bottom: 30px;
 
-}
+} */
 
 
 
-/* MAIN 2 PARTE DOSSS  */
+/* MAIN 2 PARTE DOSSS  
 .main aside {
-    justify-content: center;
+    /* justify-content: center;
     width: 100%;    
-    background-color: rgba(114, 107, 107, 0.3);
+    background-color: rgba(114, 107, 107, 0.3); */
 
 }
 
 
-/* TERCER PARTE DEL MAINNN */
+/* TERCER PARTE DEL MAINNN 
 .main article {
     width: 100%;
 }
 
 /* CARDS */
-.card_container{
-    height: 700px;
+/* .card_container{
+    /* height: 700px;
     width: 100%;
-    
-background-color: rgba(red, green, blue, alpha);}
+    background-color: rgba(red, green, blue, alpha); */
+}
 .card-img-top {
     width: 40% !important;
     padding: 16px;
