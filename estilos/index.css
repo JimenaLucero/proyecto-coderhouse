@@ -34,8 +34,7 @@ body{
     flex-direction: column;
     /* flex-wrap: wrap; */
 
-}
-  */
+
 
 /*titulos y subtitulos */
 
@@ -79,7 +78,6 @@ body{
     width: 100%;    
     background-color: rgba(114, 107, 107, 0.3); */
 
-}
 
 
 /* TERCER PARTE DEL MAINNN 
@@ -92,7 +90,7 @@ body{
     /* height: 700px;
     width: 100%;
     background-color: rgba(red, green, blue, alpha); */
-}
+
 .card-img-top {
     width: 40% !important;
     padding: 16px;
