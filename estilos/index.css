@@ -9,17 +9,30 @@ body{
     min-height: 100vh;
 }
 
-/* CONTENEDORES  */
-.contenedor--uno, .contenedor--dos, .contenedor--tres, .contenedor--cuatro {
-    width: 50vw;
-    height: 50vw;
-} 
+/* TITULO PRINCIPAL  */
+.text-wrapped{
+    margin-top: 500px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+
+/* LAS CARDS  */
+.card_container {
+    background-color: rgba(114, 107, 107, 0.3);
+    margin-bottom: 50px;
+}
+
+.card_container h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
 
 .card-img-top {
     width: 40% !important;
     padding: 16px;
 }
-
 
 
 /* NUEVOS BOTONES FLOTANTES DE LAS REDES SOCIALES */
@@ -80,6 +93,11 @@ body{
 .horarios{
     margin-top: 40px;
     margin-bottom: 40px;
+    background-color: rgba(114, 107, 107, 0.3);
+}
+
+.list-group-item{
+    background-color: rgba(114, 107, 107, 0.3);
 }
 
 
