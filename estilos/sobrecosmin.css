@@ -43,7 +43,7 @@ body{
 
 
 
-/* CONTACTO + DIRECCION  */
+/* CONTACTO + MAPA  */
 .contacto--direccion {
   display: flex;
   flex-direction: column;
@@ -57,6 +57,17 @@ body{
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+/* MAPA */
+.map-wrapped{
+  max-width: 700px;
+  border: 2px;
+}
+
+.googlemap{
+  width: 100%;
+}
+
 
 /* NUEVOS BOTONES FLOTANTES DE LAS REDES SOCIALES */
 #btn-mas {
