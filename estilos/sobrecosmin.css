@@ -10,7 +10,6 @@ body{
 }
 
 
-
 /* MAINNNN */
 .main{
   display: flex;
@@ -131,16 +130,4 @@ body{
 #btn-mas:checked ~ .bt-mas .icon-mas2 {
   transform: rotate(137deg);
   font-size: 25px;
-}
-
-
-/* footer */
-footer {
-  background-color: #0f131a;
-  height: 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #fff;
-  text-align: center;
 }
